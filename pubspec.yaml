@@ -1,0 +1,18 @@
+name: mundo_divertido_kids
+description: Jogo de plataforma 2D Mundo Divertido Kids
+publish_to: none
+version: 1.0.0+2
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  audioplayers: ^6.1.0
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
